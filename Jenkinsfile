@@ -18,15 +18,5 @@ pipeline {
                 '''
             }
         }
-        stage('Delete txt file') {
-            steps {
-                sh '''
-                cd folder1
-                ls
-                rm text.txt
-                ls
-                '''
-            }
-        }
     }
 }
