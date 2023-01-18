@@ -1,6 +1,5 @@
 pipeline {
     agent any
-
     stages {
         stage('Folder with txt file') {
             steps {
